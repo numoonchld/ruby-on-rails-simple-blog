@@ -1,24 +1,17 @@
-# README
+# Simple Ruby on Rails Blog App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- start [Puma](https://github.com/puma/puma) web server - `bin/rails server`
 
-Things you may want to cover:
+## Hello World
 
-* Ruby version
+### Routes
 
-* System dependencies
+- `config/routes.rb`
 
-* Configuration
+### Generate Controller
 
-* Database creation
+- `bin/rails generate controller Articles index --skip-routes`
 
-* Database initialization
+# References
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html)
