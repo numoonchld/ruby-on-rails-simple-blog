@@ -1,6 +1,7 @@
 # Simple Ruby on Rails Blog App
 
-- start [Puma](https://github.com/puma/puma) web server - `bin/rails server`
+- start [Puma](https://github.com/puma/puma) web server
+  - `bin/rails server`
 
 ## Hello World
 
