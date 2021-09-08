@@ -3,7 +3,7 @@
 - start [Puma](https://github.com/puma/puma) web server
   - `bin/rails server`
 
-## Hello World
+## Notes
 
 ### Routes
 
@@ -20,6 +20,14 @@
 ### Migrate DB
 
 - `bin/rails db:migrate`
+
+## Generate a new Model
+
+- `bin/rails generate model Comment commenter:string body:text article:references`
+
+## Generate Controller for new Model
+
+- `bin/rails generate controller Comments`
 
 # References
 
