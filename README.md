@@ -29,6 +29,11 @@
 
 - `bin/rails generate controller Comments`
 
+## Adding new columns for Concern
+
+- `bin/rails generate migration AddStatusToArticles status:string`
+- `bin/rails generate migration AddStatusToComments status:string`
+
 # References
 
 - [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html)
